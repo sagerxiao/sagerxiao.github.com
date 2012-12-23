@@ -4,7 +4,7 @@
   <title><![CDATA[SagerXiao Blog]]></title>
   <link href="http://sagerxiao.github.com/atom.xml" rel="self"/>
   <link href="http://sagerxiao.github.com/"/>
-  <updated>2012-12-23T22:30:11+08:00</updated>
+  <updated>2012-12-23T22:39:48+08:00</updated>
   <id>http://sagerxiao.github.com/</id>
   <author>
     <name><![CDATA[Sager Xiao]]></name>
@@ -18,7 +18,21 @@
     <link href="http://sagerxiao.github.com/blog/2012/12/23/title/"/>
     <updated>2012-12-23T22:28:00+08:00</updated>
     <id>http://sagerxiao.github.com/blog/2012/12/23/title</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>rake new_post[&#8220;My New Post&#8221;]
+edit my-new-post.markdown with text editor</p>
+
+<p>rake preview</p>
+
+<h1>Ready to publish</h1>
+
+<p>rake generate
+rake deploy</p>
+
+<h1>Commit source</h1>
+
+<p>git add .
+git ci -am &#8216;your message&#8217;
+git push origin source</p>
 ]]></content>
   </entry>
   
