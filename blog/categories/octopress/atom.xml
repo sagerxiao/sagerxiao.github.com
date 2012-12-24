@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[SagerXiao Blog]]></title>
-  <link href="http://sagerxiao.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: octopress | SagerXiao Blog]]></title>
+  <link href="http://sagerxiao.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://sagerxiao.github.com/"/>
   <updated>2012-12-24T09:07:45+08:00</updated>
   <id>http://sagerxiao.github.com/</id>
@@ -14,22 +14,13 @@
 
   
   <entry>
-    <title type="html"><![CDATA[经典实用的Shell命令]]></title>
-    <link href="http://sagerxiao.github.com/blog/2012/12/24/jing-dian-shi-yong-de-shellming-ling/"/>
-    <updated>2012-12-24T09:02:00+08:00</updated>
-    <id>http://sagerxiao.github.com/blog/2012/12/24/jing-dian-shi-yong-de-shellming-ling</id>
-    <content type="html"><![CDATA[<p>1、ls -AQ|grep -v proc|xargs du -sh|sort -h</p>
-
-<p>按从小到大的顺序显示根目录下除proc目录以外的所有文件及目录大小（须在根目录下执行该命令）</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[My first Octopress page]]></title>
     <link href="http://sagerxiao.github.com/blog/2012/12/23/title/"/>
     <updated>2012-12-23T22:28:00+08:00</updated>
     <id>http://sagerxiao.github.com/blog/2012/12/23/title</id>
-    <content type="html"><![CDATA[<p><label for="--color">Color:</label>
+    <content type="html"><![CDATA[<p></p>
+
+<p><label for="--color">Color:</label>
 <select name="attributes[--color]" id="--color"></p>
 
 <pre><code>&lt;option value="red"&gt;Red&lt;/option&gt;
@@ -41,7 +32,7 @@
 
 <p>We made 1 million dollars  this year</p>
 
-<p>rake new_post[&#8220;My New Post&#8221;]</p>
+<p>rake new_post["My New Post"]</p>
 
 <p>edit my-new-post.markdown with text editor</p>
 
@@ -59,7 +50,7 @@
 
 <p>git add .</p>
 
-<p>git ci -am &#8216;your message&#8217;</p>
+<p>git ci -am 'your message'</p>
 
 <p>git push origin source</p>
 ]]></content>
